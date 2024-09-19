@@ -39,7 +39,6 @@ typedef struct {
   int x, y;
   int width, height;
   int dx, dy;
-  bool isAlive;
 } Snake;
 
 // body segment strucs
@@ -52,7 +51,6 @@ typedef struct {
 typedef struct {
   int x, y;
   int width, height;
-  bool isActive;
 } Food;
 
 // directions
@@ -217,10 +215,10 @@ int main() {
 
   // initialize the snake
   Snake snake = {WINDOW_WIDTH / 2 - 10, WINDOW_HEIGHT / 2 + 10, SNAKE_WIDTH,
-                 SNAKE_HEIGHT, true};
+                 SNAKE_HEIGHT};
 
   // initialize the food
-  Food food = {0, 0, FOOD_WIDTH, FOOD_HEIGHT, true};
+  Food food = {0, 0, FOOD_WIDTH, FOOD_HEIGHT};
   generate_random_food(&food);
 
   // body segments of the snake
