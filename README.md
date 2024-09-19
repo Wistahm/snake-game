@@ -8,4 +8,4 @@ The game features smooth movement, randomized food spawning, and score tracking 
 
 https://github.com/user-attachments/assets/ad0da56f-a4b7-4175-99fc-5e07592545a1
 
-> and yes, I use Arch BTW! =) 
+And yes, I use Arch BTW! =) 
